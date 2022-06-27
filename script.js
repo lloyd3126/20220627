@@ -26,7 +26,7 @@ var app = new Vue({
       return output
     },
     c: function () {
-      return Number(this.a.replaceAll(",","")) - Number(this.b.replaceAll(",",""));
+      return Number(this.b.replaceAll(",","")) - Number(this.a.replaceAll(",",""));
     },
   }
 });
