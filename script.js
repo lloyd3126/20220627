@@ -27,7 +27,7 @@ var app = new Vue({
     },
     c: function () {
       return Number(this.b.replaceAll(",","")) - Number(this.a.replaceAll(",",""));
-    },
+    }, //
   }
 });
 
