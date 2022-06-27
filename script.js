@@ -25,8 +25,10 @@ var app = new Vue({
       output = this.separator(output)
       return output
     },
+    
     c: function () {
-      let output = Number(this.b.replaceAll(",","")) - Number(this.a.replaceAll(",",""));
+      let input = Number(this.b.replaceAll(",","")) - Number(this.a.replaceAll(",",""));
+      let output = this.separator(input)
       return output
     }, //
   }
